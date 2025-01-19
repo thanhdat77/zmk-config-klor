@@ -51,11 +51,6 @@
             bindings = <&to 0>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 14>;
-        };
-
         esc {
             bindings = <&kp ESC>;
             key-positions = <14 17>;
@@ -77,33 +72,8 @@
         };
 
         to3 {
-            bindings = <&to 4>;
+            bindings = <&to 3>;
             key-positions = <17 18>;
-        };
-
-        gui {
-            bindings = <&sk LG(A)>;
-            key-positions = <36 43>;
-        };
-
-        left {
-            bindings = <&kp LEFT>;
-            key-positions = <42 31>;
-        };
-
-        right {
-            bindings = <&kp RIGHT>;
-            key-positions = <19>;
-        };
-
-        up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <42 18>;
-        };
-
-        down {
-            bindings = <&kp DOWN_ARROW>;
-            key-positions = <42 17>;
         };
 
         to1 {
