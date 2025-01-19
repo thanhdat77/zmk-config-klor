@@ -41,8 +41,69 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
+            bindings = <&kp LC(C)>;
+        };
+
+        go0 {
+            timeout-ms = <50>;
+            key-positions = <37 42>;
+            bindings = <&to 0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+        };
+
+        esc {
             bindings = <&kp ESC>;
+            key-positions = <14 17>;
+        };
+
+        patse {
+            bindings = <&kp LC(V)>;
+            key-positions = <2 3>;
+        };
+
+        racket {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        close_racket {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <7 8>;
+        };
+
+        to3 {
+            bindings = <&to 4>;
+            key-positions = <17 18>;
+        };
+
+        gui {
+            bindings = <&sk LG(A)>;
+            key-positions = <36 43>;
+        };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <42 31>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <19>;
+        };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <42 18>;
+        };
+
+        down {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <42 17>;
         };
     };
 
