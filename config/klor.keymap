@@ -87,7 +87,7 @@
 
         TO2 {
             bindings = <&to 1>;
-            key-positions = <0 9>;
+            key-positions = <0 39>;
             timeout-ms = <50>;
         };
     };
