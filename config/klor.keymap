@@ -133,10 +133,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-           &kp SQT  &kp LPAR          &kp RIGHT_PARENTHESIS  &kp N8        &trans                               &kp PERCENT  &kp N9  &kp ASTERISK  &kp PLUS  &trans
-&kp TAB    &none    &kp NUMBER_2      &kp NUMBER_3           &kp NUMBER_4  &kp SEMICOLON                        &kp EQUAL    &kp N5  &kp NUMBER_6  &kp N7    &trans  &kp DEL
-&kp RCTRL  &kp SQT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp NUMBER_1  &trans         &kp C_MUTE  &kp K_PP  &kp BSLH     &kp N0  &trans        &trans    &trans  &trans
-                                      &trans                 &to 0         &trans         &trans      &trans    &trans       &trans  &trans
+           &kp SQT       &kp LPAR          &kp RIGHT_PARENTHESIS  &kp N8        &trans                               &kp PERCENT  &kp N9  &kp ASTERISK  &kp PLUS  &trans
+&kp TAB    &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3           &kp NUMBER_4  &kp SEMICOLON                        &kp EQUAL    &kp N5  &kp NUMBER_6  &kp N7    &trans  &kp DEL
+&kp RCTRL  &kp SQT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp NUMBER_1  &trans         &kp C_MUTE  &kp K_PP  &kp BSLH     &kp N0  &trans        &trans    &trans  &trans
+                                           &trans                 &to 0         &trans         &trans      &trans    &trans       &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
