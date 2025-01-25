@@ -37,12 +37,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <1 2>;
-            bindings = <&kp LC(C)>;
-        };
-
         go0 {
             timeout-ms = <50>;
             key-positions = <37 42>;
@@ -52,11 +46,6 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <14 17>;
-        };
-
-        patse {
-            bindings = <&kp LC(V)>;
-            key-positions = <2 3>;
         };
 
         racket {
