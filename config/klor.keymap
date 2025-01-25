@@ -80,12 +80,6 @@
             timeout-ms = <50>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <14 13>;
-            timeout-ms = <50>;
-        };
-
         TO2 {
             bindings = <&to 1>;
             key-positions = <0 39>;
@@ -126,10 +120,10 @@
 
         layer_4 {
             bindings = <
-           &kp TAB    &kp Q  &kp W      &kp E      &kp R                      &kp T      &kp Y     &kp U     &kp I   &kp O
-&kp LSHFT  &kp LSHFT  &kp S  &kp D      &kp F      &kp G                      &kp H      &kp J     &kp K     &kp L   &kp SEMI  &kp SQT
-&trans     &kp LCTRL  &kp X  &kp C      &kp V      &kp B      &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &trans  &trans    &trans
-                             &kp LCTRL  &kp SPACE  &kp LSHFT  &trans  &trans  &kp TAB    &kp BSPC  &kp DEL
+           &kp TAB    &kp Q  &kp W      &kp E      &kp R                      &none    &none     &none    &none   &none
+&kp LSHFT  &kp LSHFT  &kp S  &kp D      &kp F      &kp G                      &none    &none     &none    &none   &none   &none
+&trans     &kp LCTRL  &kp X  &kp C      &kp V      &kp B      &kp N   &kp M   &none    &none     &none    &trans  &trans  &trans
+                             &kp LCTRL  &kp SPACE  &kp LSHFT  &trans  &trans  &kp TAB  &kp BSPC  &kp DEL
             >;
         };
 
@@ -151,7 +145,7 @@
 
             bindings = <
            &kp SQT  &kp LPAR          &kp RIGHT_PARENTHESIS  &kp N8        &trans                               &kp PERCENT  &kp N9  &kp ASTERISK  &kp PLUS  &trans
-&kp TAB    &trans   &kp NUMBER_2      &kp NUMBER_3           &kp NUMBER_4  &kp SEMICOLON                        &kp EQUAL    &kp N5  &kp NUMBER_6  &kp N7    &trans  &kp DEL
+&kp TAB    &none    &kp NUMBER_2      &kp NUMBER_3           &kp NUMBER_4  &kp SEMICOLON                        &kp EQUAL    &kp N5  &kp NUMBER_6  &kp N7    &trans  &kp DEL
 &kp RCTRL  &kp SQT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp NUMBER_1  &trans         &kp C_MUTE  &kp K_PP  &kp BSLH     &kp N0  &trans        &trans    &trans  &trans
                                       &trans                 &to 0         &trans         &trans      &trans    &trans       &trans  &trans
             >;
