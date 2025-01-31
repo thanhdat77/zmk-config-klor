@@ -109,10 +109,10 @@
 
         layer_4 {
             bindings = <
-       &kp TAB    &kp Q  &kp X      &kp E      &kp R                      &none    &none     &none    &none   &none
-&kp T  &kp LSHFT  &kp A  &kp W      &kp D      &kp F                      &none    &none     &none    &none   &none   &none
-&kp B  &kp LCTRL  &kp Z  &kp S      &kp C      &kp V      &kp B   &kp M   &none    &none     &none    &trans  &trans  &trans
-                         &kp LCTRL  &kp SPACE  &kp LSHFT  &trans  &trans  &kp TAB  &kp BSPC  &kp DEL
+       &kp TAB       &kp Q         &kp NUMBER_3  &kp E      &kp R                      &none    &none     &none    &none   &none
+&kp T  &kp NUMBER_4  &kp A         &kp W         &kp D      &kp F                      &none    &none     &none    &none   &none   &none
+&kp B  &kp NUMBER_1  &kp NUMBER_2  &kp S         &kp C      &kp G      &kp B   &kp M   &none    &none     &none    &trans  &trans  &trans
+                                   &kp LSHIFT    &kp SPACE  &kp LCTRL  &trans  &trans  &kp TAB  &kp BSPC  &kp DEL
             >;
         };
 
