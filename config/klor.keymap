@@ -192,10 +192,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-       &kp K_SLEEP   &kp LC(Z)  &kp LC(C)  &kp LC(V)    &kp LG(V)                  &kp HOME   &kp LC(LEFT)  &kp LC(RIGHT)  &kp END    &none
-&none  &sk LEFT_ALT  &sk LWIN   &sk LSHFT  &sk LCTRL    &kp LG(TAB)                &kp LG(V)  &kp DOWN      &kp UP         &kp RIGHT  &none         &none
-&none  &kp LC(Z)     &none      &kp LC(C)  &kp LA(TAB)  &kp LA(F4)   &none  &none  &none      &kp LEFT      &kp PG_UP      &kp PG_DN  &kp LC(FSLH)  &none
-                                &none      &trans       &trans       &none  &none  &trans     &trans        &trans
+       &kp K_SLEEP   &kp LC(Z)    &kp LC(C)  &kp LC(V)    &kp LG(V)                 &kp HOME   &kp LC(LEFT)  &kp LC(RIGHT)  &kp END    &none
+&none  &sk LEFT_ALT  &sk LWIN     &sk LSHFT  &sk LCTRL    &kp ENTER                 &kp LG(V)  &kp DOWN      &kp UP         &kp RIGHT  &none         &none
+&none  &kp LC(Z)     &kp LG(TAB)  &kp LC(C)  &kp LA(TAB)  &kp LA(F4)  &none  &none  &none      &kp LEFT      &kp PG_UP      &kp PG_DN  &kp LC(FSLH)  &none
+                                  &none      &trans       &trans      &none  &none  &trans     &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
