@@ -77,7 +77,7 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <3 4>;
+            key-positions = <1 2>;
         };
 
         to_Mouse {
@@ -87,12 +87,12 @@
 
         colum {
             bindings = <&kp COLON>;
-            key-positions = <1 2>;
+            key-positions = <14 25>;
         };
 
         daunhay {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <18 31>;
+            key-positions = <17 32>;
         };
     };
 
