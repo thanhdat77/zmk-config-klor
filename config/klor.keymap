@@ -89,6 +89,11 @@
             bindings = <&kp COLON>;
             key-positions = <1 2>;
         };
+
+        daunhay {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <18 31>;
+        };
     };
 
     keymap {
