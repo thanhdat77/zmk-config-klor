@@ -118,10 +118,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-         &kp Q  &kp W  &kp F           &kp P        &kp B                                             &kp J    &kp L            &kp U      &kp Y    &kp MINUS
-&kp TAB  &kp A  &kp R  &kp S           &kp T        &kp G                                             &kp M    &kp N            &kp E      &kp I    &kp O      &kp SQT
-&kp DEL  &kp Z  &kp X  &kp C           &kp D        &kp V               &kp K_MUTE  &kp C_PLAY_PAUSE  &kp K    &kp H            &kp COMMA  &kp DOT  &kp FSLH   &kp BSLH
-                       &sk LEFT_SHIFT  &lt 4 SPACE  &hm LEFT_ALT ENTER  &kp ENTER   &kp DEL           &kp TAB  &lt 2 BACKSPACE  &sk LCTRL
+         &kp Q  &kp W  &kp F           &kp P        &kp B                                           &kp J      &kp L            &kp U      &kp Y    &kp MINUS
+&kp TAB  &kp A  &kp R  &kp S           &kp T        &kp G                                           &kp M      &kp N            &kp E      &kp I    &kp O      &kp SQT
+&kp DEL  &kp Z  &kp X  &kp C           &kp D        &kp V             &kp K_MUTE  &kp C_PLAY_PAUSE  &kp K      &kp H            &kp COMMA  &kp DOT  &kp FSLH   &kp BSLH
+                       &sk LEFT_SHIFT  &lt 4 SPACE  &hm LEFT_ALT TAB  &kp ENTER   &kp DEL           &kp ENTER  &lt 2 BACKSPACE  &sk LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
