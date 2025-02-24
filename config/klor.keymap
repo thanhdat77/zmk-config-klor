@@ -119,9 +119,9 @@
 
             bindings = <
          &kp Q  &kp W  &kp F           &kp P        &kp B                                           &kp J      &kp L            &kp U      &kp Y    &kp MINUS
-&kp TAB  &kp A  &kp R  &kp S           &kp T        &kp G                                           &kp M      &kp N            &kp E      &kp I    &kp O      &kp SQT
-&kp DEL  &kp Z  &kp X  &kp C           &kp D        &kp V             &kp K_MUTE  &kp C_PLAY_PAUSE  &kp K      &kp H            &kp COMMA  &kp DOT  &kp FSLH   &kp BSLH
-                       &sk LEFT_SHIFT  &lt 4 SPACE  &hm LEFT_ALT TAB  &kp ENTER   &kp DEL           &kp ENTER  &lt 2 BACKSPACE  &sk LCTRL
+  &kp A  &kp R  &kp S           &kp T        &kp G                                           &kp M      &kp N            &kp E      &kp I    &kp O      
+  &kp Z  &kp X  &kp C           &kp D        &kp V             &kp K_MUTE  &kp C_PLAY_PAUSE  &kp K      &kp H            &kp COMMA  &kp DOT  &kp FSLH   
+                       &sk LEFT_SHIFT  &lt 4 SPACE  &hm LEFT_ALT TAB             &kp ENTER  &lt 2 BACKSPACE  &sk LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -130,9 +130,9 @@
         Game {
             bindings = <
        &kp NUMBER_2  &kp Q  &kp X       &kp E      &kp R                      &kp T    &kp Y     &none    &none   &none
-&kp T  &kp NUMBER_4  &kp A  &kp W       &kp D      &kp F                      &kp G    &kp H     &none    &none   &none   &none
-&kp B  &kp NUMBER_1  &kp Z  &kp S       &kp C      &kp V      &kp B   &kp M   &kp B    &kp N     &none    &trans  &trans  &trans
-                            &kp LSHIFT  &kp LCTRL  &kp SPACE  &trans  &trans  &kp TAB  &kp BSPC  &kp ESC
+  &kp NUMBER_4  &kp A  &kp W       &kp D      &kp F                      &kp G    &kp H     &none    &none   &none   
+  &kp NUMBER_1  &kp Z  &kp S       &kp C      &kp V      &kp B   &kp M   &kp B    &kp N     &none    &trans  &trans  
+                            &kp LSHIFT  &kp LCTRL  &kp SPACE    &kp TAB  &kp BSPC  &kp ESC
             >;
 
             label = "Game";
@@ -155,10 +155,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-           &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp RIGHT_PARENTHESIS                        &kp PERCENT    &kp LS(LEFT_PARENTHESIS)  &kp ASTERISK       &kp PLUS  &trans
-&kp TAB    &kp SQT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL                                    &kp SEMICOLON  &kp LEFT_BRACKET          &kp RIGHT_BRACKET  &kp SQT   &trans  &kp DEL
-&kp RCTRL  &sl 3      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                 &kp C_MUTE  &kp K_PP  &kp BSLH       &none                     &trans             &trans    &trans  &trans
-                                    &trans        &kp N0        &trans                 &trans      &trans    &trans         &trans                    &trans
+        &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp RIGHT_PARENTHESIS                        &kp PERCENT    &kp LS(LEFT_PARENTHESIS)  &kp ASTERISK       &kp PLUS  &trans
+        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL                                    &kp SEMICOLON  &kp LEFT_BRACKET          &kp RIGHT_BRACKET  &kp SQT   &trans  
+        &sl 3      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                 &kp C_MUTE  &kp K_PP  &kp BSLH       &none     &trans             &trans    
+              &trans        &kp N0        &trans                    &trans         &trans                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -166,10 +166,10 @@
 
         Func_layer {
             bindings = <
-       &none  &kp F7  &kp F8  &kp F9  &kp F12                 &none   &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none
-&none  &none  &kp F4  &kp F5  &kp F6  &kp F11                 &none   &none       &none       &none       &none  &none
-&none  &none  &kp F1  &kp F2  &kp F3  &kp F10  &none   &none  &none   &none       &none       &none       &none  &none
-                      &trans  &trans  &trans   &trans  &none  &trans  &trans      &trans
+        &none  &kp F7  &kp F8  &kp F9  &kp F12                 &none   &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none
+        &none  &kp F4  &kp F5  &kp F6  &kp F11                 &none   &none       &none       &none       &none 
+        &none  &kp F1  &kp F2  &kp F3  &kp F10  &none   &none  &none   &none       &none       &none       &none 
+                      &trans  &trans  &trans    &trans  &trans      &trans
             >;
 
             label = "Func";
@@ -193,9 +193,9 @@
 
             bindings = <
        &kp K_SLEEP   &kp LC(Z)    &kp LC(C)  &kp LC(V)    &kp LG(V)                 &kp HOME   &kp LC(LEFT)  &kp LC(RIGHT)  &kp END    &none
-&none  &sk LEFT_ALT  &sk LWIN     &sk LSHFT  &sk LCTRL    &kp ENTER                 &kp LG(V)  &kp DOWN      &kp UP         &kp RIGHT  &none         &none
-&none  &kp LC(Z)     &kp LG(TAB)  &kp LC(C)  &kp LA(TAB)  &kp LA(F4)  &none  &none  &none      &kp LEFT      &kp PG_UP      &kp PG_DN  &kp LC(FSLH)  &none
-                                  &none      &trans       &trans      &none  &none  &trans     &trans        &trans
+        &sk LEFT_ALT  &sk LWIN     &sk LSHFT  &sk LCTRL    &kp ENTER                 &kp LG(V)  &kp DOWN      &kp UP         &kp RIGHT  &none       
+        &kp LC(Z)     &kp LG(TAB)  &kp LC(C)  &kp LA(TAB)  &kp LA(F4)  &none  &none  &none      &kp LEFT      &kp PG_UP      &kp PG_DN  &kp LC(FSLH)
+                                  &none      &trans       &trans      z &trans     &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
